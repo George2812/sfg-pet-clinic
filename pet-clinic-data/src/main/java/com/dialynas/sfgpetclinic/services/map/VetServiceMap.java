@@ -1,11 +1,11 @@
 package com.dialynas.sfgpetclinic.services.map;
 
 import com.dialynas.sfgpetclinic.model.Vet;
-import com.dialynas.sfgpetclinic.services.CrudService;
+import com.dialynas.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
